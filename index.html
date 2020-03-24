@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css"
+    />
+    <title>Hayden Young</title>
+    <style>
+      body {
+        background: #eaeaea;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="max-w-lg mx-auto w-full flex items-center flex-grow">
+      <div
+        class="bg-white p-6 w-full flex flex-col md:flex-row shadow-xl rounded-lg"
+      >
+        <div class="w-full md:w-1/3">
+          <img
+            src="https://avatars0.githubusercontent.com/u/22327045?s=460&u=23bebd12ac0feb90cdfcba8c9a2326fe0b2bfde4&v=4"
+            class="h-24 w-24 rounded-full mx-auto"
+          />
+        </div>
+        <div
+          class="lg:ml-6 lg:p-0 p-4 flex flex-col justify-between w-full text-center md:text-left"
+        >
+          <div class="mb-4">
+            <h3 class="font-bold text-xl">Hayden Young</h3>
+            <h4 class="text-base text-md text-purple-600">Web Developer</h4>
+            <a
+              class="text-base text-gray-600"
+              href="mailto:hayden@itshayden.dev"
+              >hayden@itshayden.dev</a
+            >
+          </div>
+          <div
+            class="flex text-gray-600 mx-auto text-center md:text-left md:mx-0"
+          >
+            <a
+              class="hover:text-gray-900 mr-3"
+              href="https://github.com/itshaydendev"
+              ><i data-feather="github"></i
+            ></a>
+            <a
+              class="hover:text-orange-500 mr-3"
+              href="https://gitlab.com/itshaydendev"
+              ><i data-feather="gitlab"></i
+            ></a>
+            <a
+              class="hover:text-blue-500 mr-3"
+              href="https://twitter.com/itshaydendev"
+              ><i data-feather="twitter"></i
+            ></a>
+            <a
+              class="hover:text-gray-900 mr-3"
+              href="https://blog.itshayden.dev"
+              ><i data-feather="book-open"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
